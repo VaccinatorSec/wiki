@@ -57,7 +57,6 @@ rel  = "sitemap"
   priority = 0.5
 
 [taxonomies]
-  contributor = "contributors"
   category = "categories"
   tag = "tags"
 
