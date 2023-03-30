@@ -1,4 +1,4 @@
-baseurl = "https://wiki.vaccinator.dev/"
+baseurl = "https://wiki.vaccinator.tech/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
