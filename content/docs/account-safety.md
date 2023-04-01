@@ -42,17 +42,17 @@ The list here mainly applies to Discord, but some like phishing might be applica
 ### Phishing
 Main article: [TODO]()
 
-When entering your credentials, pay attention to the URL bar on the browser, make sure it's `discord.com`, otherwise you may be sending your credentials to an attacker impersonating as Discord.
+When entering your password, pay attention to the URL bar on the browser, make sure it's `discord.com`, otherwise you risk sending your password to an attacker impersonating as Discord.
 
 Here are some other signs to watch out for in relation to phishing:
 
 #### Empty address
-If the URL bar is blank/empty with no text as in "", that means it's likely it's not actually on the site you expect it to be, but instead you are on a webpage controlled by attacker, you should not enter your credentials here.
+If the URL bar is blank/empty with no text as in "", that means it's likely it's not actually on the site you expect it to be, but instead you are on a webpage controlled by attacker, you should not enter your password here.
 ==TODO Images for empty address==
 
 #### Fake window
 If the login window is a "popup" has the expected URL, try dragging the popup out of the current window, so that nothing else is behind the window, except your desktop wallpaper.
-If you cannot do that, it's likely that's not a real browser window, but an iframe on the website, giving the illusion of a pop up window with faked URL, you should not enter your credentials here.
+If you cannot do that, it's likely that's not a real browser window, but an iframe on the website, giving the illusion of a pop up window with faked URL, you should not enter your password here.
 ==TODO images for popup==
 
 ### Malware
@@ -74,7 +74,7 @@ If you pay attention, the mobile Discord app will warn you that scanning and aut
 ==TODO mobile screenshots==
 
 #### Bookmarklet
-If a bot or website claims you need to add a bookmark and click it after visiting `discord.com` to verify, do not follow through. Doing so will allow the bookmarklet to execute code which send your credentials back to the attacker's servers.
+If a bot or website claims you need to add a bookmark and click it after visiting `discord.com` to verify, do not follow through. Doing so will allow the bookmarklet to execute code which grants attacker access to your account.
 
 ### Developer tools
 Main article: [TODO]()
@@ -83,11 +83,11 @@ Developer tools are a powerful console intended for use by developers, which can
 #### Malicious code execution
 In the developer tools, there's a "console" tab which shows the console's logger and also allows JavaScript code to be run.
 
-You should not copy and paste code from untrusted sources, as code run in there has the capability to exfiltrate your credentials and send them off to attacker's servers.
+You should not copy and paste code from untrusted sources, as running code in the console could grant attacker access to your account.
 
 If someone is claiming you should run it with pretext, such as "verifying yourself" or "gain free nitro" or any of the things that are suspicious, you should avoid following along.
 
 #### Leaking secrets
-In the developer tools, there's a "network" tab which shows network request made by the JavaScript.
+In the developer tools, there's a "network" tab which shows network request made by the JavaScript. The request might include secrets which an attacker could use in order to access your account, you should avoid opening it during a screenshot, recording or screen sharing session.
 
-The request might include things like your credentials, you should avoid opening it during a recording or screen sharing session. You should also avoid sharing the output of "Copy" option or "Save all as HAR with content" option as both of them will include your credentials (token), sharing them will grant attackers access to your account.
+You should avoid sharing the output of "Copy" option or "Save all as HAR with content" option as both of them might include secrets that attackers can use to access your account.
