@@ -1,6 +1,6 @@
 ---
-title: "Account Safety Crash Course"
-description: ""
+title: "Account Safety Awareness Crash Course"
+description: "A breif guide to account safety awareness on discord."
 lead: ""
 date: 2023-03-29T22:10:23-04:00
 draft: false
@@ -40,7 +40,7 @@ Below listed a summary of methods that an attacker might attempt to use in order
 The list here mainly applies to Discord, but some like phishing might be applicable to other spaces.
 
 ### Phishing
-Main article: [TODO]()
+Main article: [Phishing](./threats/phishing)
 
 When entering your password, pay attention to the URL bar on the browser, make sure it's `discord.com`, otherwise you risk sending your password to an attacker impersonating as Discord.
 
