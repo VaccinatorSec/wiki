@@ -34,6 +34,16 @@ Do not trust messages sent by a bot simply because it bears a verified tick; an 
 Do not believe it if any user or any bot that claims to communicate on behalf of Discord. Discord only communicates via the official "discord" account. Official discord accounts will also bear the "System" badge.
 ==todo screenshot of official thread==
 
+## Consequences
+Falling for one of these attacks can have drastic consequences.
+
+The attacker can gain access to your account, which allow them to use your account to spam invites, or spread phishing over guilds and friend list. Your account may be banned or kicked from guilds, unfriended or blocked from others, or at worst case be banned and deleted from discord entirely.
+
+This may also impact you financially, as the attacker might also attempt to spend your linked credit card to purchase nitro(which is sold on the black market) if any are present.
+
+## Remediation
+What to do if you have fallen for one of these attacks? as topic of remediation is complicated and have different steps depending on which attack vector was used, you should check out [Remediation Guide](./) for the full guide.
+
 ## Summary of methods
 Below listed a summary of methods that an attacker might attempt to use in order to compromise someone's account.
 
